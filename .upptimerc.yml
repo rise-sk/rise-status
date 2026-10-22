@@ -10,6 +10,9 @@ sites:
   - name: rise.sk API health
     url: https://rise.sk/api/health
     maxResponseTime: 5000
+  - name: Prihlásenie (admin nástroje)
+    url: https://login.rise.sk/api/health
+    maxResponseTime: 5000
 
 secrets:
   - NOTIFICATION_DISCORD_WEBHOOK_URL
@@ -18,7 +21,7 @@ assignees:
   - Marosko123
 
 status-website:
-  baseUrl: /rise-status
+  cname: status.rise.sk
   name: rise.sk status
   introTitle: "**rise.sk** – dostupnosť služieb"
   introMessage: Kontroly bežia každých 5 minút mimo nášho servera (GitHub Actions). Výpadky sa zapisujú ako incidenty.
