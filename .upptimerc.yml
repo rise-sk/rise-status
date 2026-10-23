@@ -1,6 +1,6 @@
 # Public status of rise.sk (Upptime: GitHub Actions every 5 min, outside our server; incidents become issues).
-# Maintained with the server docs (rise-prod-01:/srv/infra.git, docs/tools.md). Add every new public app here.
-owner: Marosko123
+# Maintained with the server docs (rise-server:/srv/infra.git, docs/tools.md). Add every new public app here.
+owner: rise-sk
 repo: rise-status
 
 sites:
